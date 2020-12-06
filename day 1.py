@@ -1,6 +1,7 @@
 file = open("d1input.txt")
 lines = file.readlines();
-
+data = map(int, open('d1input.txt').readlines())
+print(data)
 input = []
 
 for line in lines:
